@@ -1,0 +1,11 @@
+.password-container {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+  }
+  
+  .password-container.show {
+    opacity: 1;
+    max-height: 200px; /* Yeterli bir yüksekliği belirle */
+  }
